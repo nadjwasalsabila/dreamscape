@@ -9,7 +9,7 @@ Dreamscape adalah aplikasi website berbasis PHP dan MySQL yang digunakan untuk m
 Website Dreamscape dibuat untuk:
 
 - Menyediakan halaman publik berisi artikel dan galeri
-
+  
 - Memberikan fitur admin untuk menambah, mengedit, dan menghapus konten
 
 - Melatih implementasi CRUD (Create, Read, Update, Delete)
@@ -44,7 +44,7 @@ Website Dreamscape dibuat untuk:
 - Dashboard admin (jumlah artikel & galeri)
 
 🛠️ Teknologi yang Digunakan
-* Frontend
+*Frontend
 
 - HTML
 
@@ -56,7 +56,7 @@ Website Dreamscape dibuat untuk:
 
 - jQuery
 
-* Backend
+*Backend
 
 - PHP (Native)
 
