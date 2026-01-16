@@ -122,4 +122,4 @@ Website menggunakan database MySQL dengan tabel utama:
 
 - Upload file dibatasi tipe gambar (jpg, png, jpeg, gif)
 
-Pembatasan akses halaman admin
+- Pembatasan akses halaman admin
