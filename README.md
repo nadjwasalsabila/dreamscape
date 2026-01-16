@@ -8,116 +8,117 @@ Dreamscape adalah aplikasi website berbasis PHP dan MySQL yang digunakan untuk m
 
 Website Dreamscape dibuat untuk:
 
-Menyediakan halaman publik berisi artikel dan galeri
+- Menyediakan halaman publik berisi artikel dan galeri
 
-Memberikan fitur admin untuk menambah, mengedit, dan menghapus konten
+- Memberikan fitur admin untuk menambah, mengedit, dan menghapus konten
 
-Melatih implementasi CRUD (Create, Read, Update, Delete)
+- Melatih implementasi CRUD (Create, Read, Update, Delete)
 
-Memahami alur kerja frontend dan backend pada aplikasi web
+- Memahami alur kerja frontend dan backend pada aplikasi web
 
 🧩 Fitur Utama
 🔓 Halaman Publik
 
-Menampilkan daftar artikel
+- Menampilkan daftar artikel
 
-Menampilkan galeri gambar
+- Menampilkan galeri gambar
 
-Tampilan responsif menggunakan Bootstrap
+- Tampilan responsif menggunakan Bootstrap
 
-Konten bersifat read-only untuk user biasa
+- Konten bersifat read-only untuk user biasa
 
 🔐 Halaman Admin
 
-Login admin
+- Login admin
 
-Tambah artikel secara manual
+- Tambah artikel secara manual
 
-Edit artikel
+- Edit artikel
 
-Hapus artikel
+- Hapus artikel
 
-Upload gambar ke galeri
+- Upload gambar ke galeri
 
-Edit dan hapus gambar galeri
+- Edit dan hapus gambar galeri
 
-Dashboard admin (jumlah artikel & galeri)
+- Dashboard admin (jumlah artikel & galeri)
 
 🛠️ Teknologi yang Digunakan
-Frontend
+* Frontend
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-Bootstrap
+- Bootstrap
 
-JavaScript
+- JavaScript
 
-jQuery
+- jQuery
 
-Backend
+* Backend
 
-PHP (Native)
+- PHP (Native)
 
-MySQL
+- MySQL
 
-AJAX (untuk load data tanpa refresh)
+- AJAX (untuk load data tanpa refresh)
 
-Server & Hosting
+- Server & Hosting
 
-XAMPP (Localhost)
+- XAMPP (Localhost)
 
-InfinityFree (Hosting gratis PHP)
+- InfinityFree (Hosting gratis PHP)
+  
 🔄 Alur Kerja Sistem
-User (Pengunjung)
+*User (Pengunjung)
 
-Mengakses halaman website
+- Mengakses halaman website
 
-Melihat artikel dan galeri
+- Melihat artikel dan galeri
 
-Tidak dapat mengubah konten
+- Tidak dapat mengubah konten
 
-Admin
+*Admin
 
-Login ke halaman admin
+- Login ke halaman admin
 
-Masuk dashboard
+- Masuk dashboard
 
 Mengelola artikel:
 
-Tambah
+- Tambah
 
-Edit
+- Edit
 
-Hapus
+- Hapus
 
-Mengelola galeri:
+- Mengelola galeri:
 
-Upload gambar
+- Upload gambar
 
-Edit gambar
+- Edit gambar
 
-Hapus gambar
+- Hapus gambar
 
-Data tersimpan di database MySQL
+- Data tersimpan di database MySQL
 
 🗄️ Konsep Database
 
 Website menggunakan database MySQL dengan tabel utama:
 
-article → menyimpan data artikel
+- article → menyimpan data artikel
 
-gallery → menyimpan data gambar galeri
+- gallery → menyimpan data gambar galeri
 
-admin / user → menyimpan data login admin
+- admin / user → menyimpan data login admin
 
 🔐 Keamanan Dasar
 
-Login admin menggunakan username & password
+- Login admin menggunakan username & password
 
-Validasi form input
+- Validasi form input
 
-Upload file dibatasi tipe gambar (jpg, png, jpeg, gif)
+- Upload file dibatasi tipe gambar (jpg, png, jpeg, gif)
 
 Pembatasan akses halaman admin
